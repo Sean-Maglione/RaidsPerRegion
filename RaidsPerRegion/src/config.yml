@@ -1,0 +1,38 @@
+# TITLE MESSAGES:
+# These are the messages to be displayed to all players within the region selected for a raid
+# Use "" for nonae
+
+RaidAnnoucementTitle: "&4&lRaid Underway"
+RaidAnnoucementSubtitle: "&6Prepare to fight!" 
+
+RaidLoseTitle: "&4&lRaid Lost!"
+RaidLoseSubtitle: "&6This can't be good..."
+
+RaidWinTitle: "&2&lRaid Won!"
+RaidWinSubtitle: "&6The raiders have fled"
+
+# These are the mobs (Mythic Mobs) types that spawn in a raid.
+# Chance is the chance of spawning in each cycle. 0.60 for example would be 60 %
+# The smallest chance can be 0.001 or 0.1%
+# Priority is the priority of the mob spawning if two mobs "hit" the chance. Set rarer mobs to a higher priority!
+RaidMobs:
+  Marauder_Footman:
+    chance: 0.60
+    priority: 1
+  Marauder_Archer:
+    chance: 0.30
+    priority: 2
+  Marauder_Solider:
+    chance: 0.20
+    priority: 3
+  Marauder_Commander:
+    chance: 0.10
+    priority: 4
+  Marauder_Chief:
+    chance: 0.05
+    priority: 5
+
+# The maximum number of mobs that can spawn per player.
+# Since the default is 10, if there were 5 players in the raid region a maximum of 50 mobs can be alive at once
+# It is NOT advised to change this
+MaxMobsPerPlayer: 10

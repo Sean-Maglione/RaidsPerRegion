@@ -1,0 +1,13 @@
+name: RaidsPerRegion
+version: 1.0
+author: ShermansWorld
+main: me.ShermansWorld.RaidsPerRegion.Main
+
+commands:
+  raid:
+    aliases: [r]
+    description: Used to start raids
+    softdepend: [WorldEdit, WorldGuard, MythicMobs]
+  raidsperregion:
+    aliases: [RaidsPerRegion]
+    description: Used to cancel raids or reload plugin
